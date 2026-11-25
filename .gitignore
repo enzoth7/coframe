@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+.next/
+node_modules/
+.env*.local
+npm-debug.log*
+data/*.backup*.sqlite
+data/*.sqlite-*
+data/*.tmp
+
+.vercel

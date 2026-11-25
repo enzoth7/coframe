@@ -1,0 +1,310 @@
+{
+  "event": {
+    "name": "Polarist Club",
+    "date": "2026-12-12",
+    "venue": "Blend Café & Experiencias",
+    "source": "polarist/src/pages/EventLanding.tsx"
+  },
+  "updatedAt": "2026-11-24",
+  "sponsors": [
+    {
+      "id": "matearte",
+      "name": "MateArte",
+      "logo": "/sponsors/sponsor-ma.webp",
+      "instagram": "matearteuruguay",
+      "instagramAlt": [
+        "ma.arteuy",
+        "matearte.uruguay"
+      ],
+      "website": "https://www.matearteuruguay.com",
+      "followers": 51400,
+      "city": "Paysandú",
+      "countryCode": "UY",
+      "subcategory": "Mates, cuero, alpaca y personalización",
+      "description": "Empresa familiar con más de 25 años en artículos regionales. Produce en Paysandú y en Colón (Entre Ríos), vende por mayor y por menor, hace regalos corporativos y trabajó para la AFA y la AUF. Marca País Uruguay Natural.",
+      "profile": {
+        "location": "Paysandú",
+        "category": "Moda",
+        "scope": "Multinacional",
+        "clientType": "B2B, B2C",
+        "ages": [
+          "25–34",
+          "35–44",
+          "45–54"
+        ],
+        "nse": "Medio-Alto",
+        "personality": "Cuidador",
+        "motivators": [
+          "Pertenencia",
+          "Familia",
+          "Seguridad"
+        ],
+        "tone": "Cercano",
+        "objective": "Vender más"
+      },
+      "confidence": {
+        "location": "confirmado",
+        "category": "inferido",
+        "scope": "confirmado",
+        "clientType": "confirmado",
+        "ages": "inferido",
+        "nse": "inferido",
+        "personality": "confirmado",
+        "motivators": "confirmado",
+        "tone": "confirmado",
+        "objective": "inferido"
+      },
+      "sources": [
+        "https://www.instagram.com/matearteuruguay/",
+        "matearte/assets/marca-matearte/Historia.md",
+        "matearte/assets/marca-matearte/MASTER.md"
+      ]
+    },
+    {
+      "id": "robles",
+      "name": "Robles",
+      "logo": "/sponsors/sponsor-robles.webp",
+      "instagram": "robles_uy",
+      "instagramAlt": [],
+      "website": null,
+      "followers": 2043,
+      "city": "Paysandú",
+      "countryCode": "UY",
+      "subcategory": "Muebles, colchones y sommiers",
+      "description": "Robles Arte en Muebles & Colchones. Muebles, colchones, sommiers, sillones y sofás. Lema: \"Lo que soñás, al precio que esperás\". Venta por WhatsApp.",
+      "profile": {
+        "location": "Paysandú",
+        "category": "Hogar",
+        "scope": "Local",
+        "clientType": "B2C",
+        "ages": [
+          "25–34",
+          "35–44",
+          "45–54"
+        ],
+        "nse": "Medio",
+        "personality": "Ciudadano",
+        "motivators": [
+          "Familia",
+          "Seguridad"
+        ],
+        "tone": "Cercano",
+        "objective": "Vender más"
+      },
+      "confidence": {
+        "location": "inferido",
+        "category": "confirmado",
+        "scope": "inferido",
+        "clientType": "confirmado",
+        "ages": "inferido",
+        "nse": "inferido",
+        "personality": "inferido",
+        "motivators": "inferido",
+        "tone": "confirmado",
+        "objective": "inferido"
+      },
+      "sources": [
+        "https://www.instagram.com/robles_uy/"
+      ]
+    },
+    {
+      "id": "piccoletto",
+      "name": "Piccoletto",
+      "logo": "/sponsors/sponsor-piccoletto.webp",
+      "instagram": "piccoletto_pdu",
+      "instagramAlt": [],
+      "website": null,
+      "followers": 6014,
+      "city": "Paysandú",
+      "countryCode": "UY",
+      "subcategory": "Fábrica de pastas, rotisería y postres",
+      "description": "Fábrica de pastas, rotisería y postres. Abre de martes a domingo, con pedidos por WhatsApp.",
+      "profile": {
+        "location": "Paysandú",
+        "category": "Alimentos",
+        "scope": "Local",
+        "clientType": "B2C",
+        "ages": [
+          "25–34",
+          "35–44",
+          "45–54",
+          "55+"
+        ],
+        "nse": "Medio",
+        "personality": "Cuidador",
+        "motivators": [
+          "Familia",
+          "Placer"
+        ],
+        "tone": "Cercano",
+        "objective": "Vender más"
+      },
+      "confidence": {
+        "location": "inferido",
+        "category": "confirmado",
+        "scope": "confirmado",
+        "clientType": "confirmado",
+        "ages": "inferido",
+        "nse": "inferido",
+        "personality": "inferido",
+        "motivators": "inferido",
+        "tone": "inferido",
+        "objective": "inferido"
+      },
+      "sources": [
+        "https://www.instagram.com/piccoletto_pdu/"
+      ]
+    },
+    {
+      "id": "salus",
+      "name": "Salus",
+      "logo": "/sponsors/sponsor-salus.webp",
+      "instagram": "salusuruguay",
+      "instagramAlt": [],
+      "website": "https://www.salus.com.uy/",
+      "followers": 45700,
+      "city": "Montevideo",
+      "countryCode": "UY",
+      "subcategory": "Agua y refrescos",
+      "description": "Agua mineral y refrescos de alcance nacional. Su comunicación actual empuja el movimiento #YoPrefieroAgua, con foco en hidratación, deporte y reciclaje.",
+      "profile": {
+        "location": "Montevideo",
+        "category": "Bebidas",
+        "scope": "Nacional",
+        "clientType": "B2B, B2C",
+        "ages": [
+          "13–17",
+          "18–24",
+          "25–34",
+          "35–44",
+          "45–54",
+          "55+"
+        ],
+        "nse": "Medio-Bajo",
+        "personality": "Inocente",
+        "motivators": [
+          "Seguridad",
+          "Pertenencia"
+        ],
+        "tone": "Cercano",
+        "objective": "Más interacción en redes"
+      },
+      "confidence": {
+        "location": "confirmado",
+        "category": "confirmado",
+        "scope": "confirmado",
+        "clientType": "confirmado",
+        "ages": "confirmado",
+        "nse": "confirmado",
+        "personality": "confirmado",
+        "motivators": "confirmado",
+        "tone": "inferido",
+        "objective": "inferido"
+      },
+      "sources": [
+        "https://www.instagram.com/salusuruguay/",
+        "coframe/data/sources/uruguay-brands.csv (M-00018)"
+      ]
+    },
+    {
+      "id": "mamba-negra",
+      "name": "Mamba Negra",
+      "logo": "/sponsors/sponsor-mamba.webp",
+      "instagram": "mambanegra.uy",
+      "instagramAlt": [
+        "mambanegra_pdu"
+      ],
+      "website": "https://www.mambanegra.com.uy/",
+      "followers": 8625,
+      "city": "Paysandú",
+      "countryCode": "UY",
+      "subcategory": "Óptica, joyería y accesorios",
+      "description": "Óptica y joyería con probador virtual de lentes online, carteras, relojes y accesorios de diseño. Lema: \"Tu estilo, elevado\".",
+      "profile": {
+        "location": "Paysandú",
+        "category": "Moda",
+        "scope": "Nacional",
+        "clientType": "B2C",
+        "ages": [
+          "25–34",
+          "35–44",
+          "45–54"
+        ],
+        "nse": "Alto",
+        "personality": "Gobernante",
+        "motivators": [
+          "Estatus",
+          "Poder"
+        ],
+        "tone": "Aspiracional",
+        "objective": "Vender más"
+      },
+      "confidence": {
+        "location": "confirmado",
+        "category": "confirmado",
+        "scope": "confirmado",
+        "clientType": "confirmado",
+        "ages": "confirmado",
+        "nse": "confirmado",
+        "personality": "confirmado",
+        "motivators": "confirmado",
+        "tone": "confirmado",
+        "objective": "inferido"
+      },
+      "sources": [
+        "https://www.instagram.com/mambanegra.uy/",
+        "coframe/data/sources/uruguay-brands.csv (M-00020)"
+      ]
+    },
+    {
+      "id": "cabesas",
+      "name": "Cabesas",
+      "logo": "/sponsors/sponsor-cabesas.webp",
+      "instagram": "cabesasuy",
+      "instagramAlt": [],
+      "website": null,
+      "followers": null,
+      "city": "Tacuarembó",
+      "countryCode": "UY",
+      "subcategory": "Cerveza artesanal, maltería y destilería",
+      "description": "Cervecería artesanal nacida en Tacuarembó en 2007, hoy también maltería y destilería. Vende buena parte de su producción en Montevideo. Estilos: Scottish Ale, Bárbara, APA Revolution, IPA Atómica.",
+      "profile": {
+        "location": "Otra ciudad de Uruguay",
+        "category": "Bebidas",
+        "scope": "Nacional",
+        "clientType": "B2B, B2C",
+        "ages": [
+          "18–24",
+          "25–34",
+          "35–44"
+        ],
+        "nse": "Medio-Alto",
+        "personality": "Creador",
+        "motivators": [
+          "Placer",
+          "Exploración",
+          "Pertenencia"
+        ],
+        "tone": "Creativo",
+        "objective": "Que más gente nos conozca"
+      },
+      "confidence": {
+        "location": "confirmado",
+        "category": "confirmado",
+        "scope": "confirmado",
+        "clientType": "inferido",
+        "ages": "inferido",
+        "nse": "inferido",
+        "personality": "inferido",
+        "motivators": "inferido",
+        "tone": "inferido",
+        "objective": "inferido"
+      },
+      "sources": [
+        "polarist/public/media/event/landing/sponsor-cabesas.webp",
+        "https://infonegocios.info/default/cabesas-bier-esta-cerca-de-ponerse-a-brindar-con-brasilenos-y-argentinos",
+        "https://www.realestate-in-uruguay.com/blog/beer-in-uruguay/"
+      ]
+    }
+  ]
+}

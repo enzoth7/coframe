@@ -1,0 +1,281 @@
+/* Matriz: compatibilidad entre valores de cada atributo. El semáforo se usa porque son puntajes. */
+.matrix-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.matrix-nav,
+.lists-nav {
+  position: sticky;
+  top: 24px;
+  display: grid;
+  gap: 2px;
+}
+
+.lists-nav button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 38px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  text-align: left;
+  font-weight: 500;
+  transition: background-color 150ms ease-out;
+}
+
+.lists-nav button:hover {
+  background: var(--surface);
+}
+
+.lists-nav button.is-active {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.lists-nav small {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.lists-nav button.is-active small {
+  color: rgb(255 255 255 / 80%);
+}
+
+.matrix-panel {
+  min-width: 0;
+}
+
+.matrix-head {
+  margin-bottom: 18px;
+}
+
+.matrix-head h2 {
+  margin: 0 0 6px;
+  font-family: var(--font-title);
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.matrix-help {
+  max-width: 70ch;
+  margin-bottom: 10px;
+}
+
+.matrix-weight {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: 0.875rem;
+}
+
+.matrix-weight a {
+  margin-left: 6px;
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.matrix-readonly {
+  margin-bottom: 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+}
+
+.matrix-scroll {
+  max-width: 100%;
+  overflow: auto;
+  padding-bottom: 6px;
+}
+
+.matrix-table {
+  border-collapse: separate;
+  border-spacing: 3px;
+  font-variant-numeric: tabular-nums;
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 0;
+}
+
+.matrix-corner {
+  min-width: 170px;
+}
+
+/* Encabezados de columna en vertical para que entren nombres largos */
+.matrix-col {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 150px;
+  padding-bottom: 6px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.matrix-row {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  min-width: 170px;
+  max-width: 220px;
+  padding-right: 10px !important;
+  background: var(--white);
+  text-align: right;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.matrix-cell,
+.matrix-input {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+
+.matrix-cell {
+  transition: transform 120ms ease-out, box-shadow 120ms ease-out;
+}
+
+.matrix-cell:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgb(17 17 17 / 12%);
+}
+
+.matrix-cell:disabled {
+  cursor: default;
+}
+
+.is-diagonal .matrix-cell {
+  outline: 1px solid rgb(17 17 17 / 18%);
+  outline-offset: -1px;
+}
+
+.matrix-input {
+  padding: 0 4px;
+  outline: 2px solid var(--blue);
+  text-align: center;
+  background: var(--white);
+}
+
+.matrix-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.matrix-legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.matrix-legend small {
+  color: var(--muted);
+  font-size: inherit;
+}
+
+.matrix-dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.matrix-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.matrix-hint {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+/* Semáforo (mismo que el Lab) */
+.band-alta { color: var(--band-alta); background: var(--band-alta-soft); }
+.band-media { color: var(--band-media); background: var(--band-media-soft); }
+.band-baja { color: var(--band-baja); background: var(--band-baja-soft); }
+.band-muy-baja { color: var(--band-muy-baja); background: var(--band-muy-baja-soft); }
+.band-fill-alta { background: var(--band-alta); }
+.band-fill-media { background: #d9a406; }
+.band-fill-baja { background: #ea580c; }
+.band-fill-muy-baja { background: #dc2626; }
+
+.btn-ghost {
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--white);
+  font-weight: 600;
+  transition: background-color 150ms ease-out;
+}
+
+.btn-ghost:hover {
+  background: var(--surface);
+}
+
+.base-toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 40;
+  max-width: 420px;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  color: var(--white);
+  background: var(--black);
+  box-shadow: 0 12px 30px rgb(17 17 17 / 24%);
+}
+
+@media (max-width: 820px) {
+  .matrix-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .lists-nav {
+    position: static;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .lists-nav button {
+    flex: none;
+  }
+
+  .matrix-row,
+  .matrix-corner {
+    min-width: 120px;
+    white-space: normal;
+  }
+}

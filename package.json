@@ -1,0 +1,30 @@
+{
+  "name": "coframe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "npm run db:ensure",
+    "dev": "next dev",
+    "prebuild": "npm run db:ensure",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "db:ensure": "node scripts/db-ensure.mjs",
+    "db:check": "node scripts/db-check.mjs",
+    "logos:fetch": "node scripts/fetch-logos.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "db:backup": "node scripts/db-backup.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "csv-parse": "^6.1.0",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.3"
+  }
+}
